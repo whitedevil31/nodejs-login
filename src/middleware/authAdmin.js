@@ -2,9 +2,7 @@ const jwt = require("jsonwebtoken");
 const User = require("../models/user");
 
 const auth = async (req, res, next) => {
-  //         if(req.user == null) {
-  //             res.status(403).send('Sign in required.')
-  //         }
+  //         
 
   //             next()
   // }
